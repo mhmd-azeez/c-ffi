@@ -1,0 +1,16 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "test": "node --napi-modules index.js"
+  },
+  "gypfile": true,
+  "name": "sqlite3",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

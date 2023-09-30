@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS logs (
+    id INTEGER PRIMARY KEY,
+    text TEXT
+);

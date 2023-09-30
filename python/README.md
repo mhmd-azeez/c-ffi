@@ -1,0 +1,4 @@
+# Python
+```
+python ./main.py
+```

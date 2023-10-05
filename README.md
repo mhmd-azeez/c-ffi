@@ -9,3 +9,6 @@ The [sqlite/sqlite](./sqlite/sqlite) folder is downloaded from: https://www.sqli
 This shows how you can change the title of a window in Windows.
  - https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-findwindowa
  - https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowtextw
+
+## Contributions
+You don't see your favorite programming language here? PRs are welcome! Use this as a challenge to learn more about C FFI in your favorite programming language.

@@ -14,21 +14,21 @@ SetWindowTextW = user32.SetWindowTextW
 SetWindowTextW.argtypes = [ctypes.wintypes.HWND, ctypes.c_wchar_p]
 SetWindowTextW.restype = ctypes.c_bool
 
-def change_notepad_title(new_title):
-    # Find the Notepad window by its class name ("Notepad")
-    notepad_window = FindWindowA(b"MSPaintApp", None)
+def change_paint_title(new_title):
+    # Find the Paint window by its class name ("Paint")
+    paint_window = FindWindowA(b"MSPaintApp", None)
 
-    if notepad_window:
-        # Change the title of the Notepad window
-        success = SetWindowTextW(notepad_window, new_title)
+    if paint_window:
+        # Change the title of the Paint window
+        success = SetWindowTextW(paint_window, new_title)
 
         if success:
-            print(f"Title of Notepad window changed to: {new_title}")
+            print(f"Title of Paint window changed to: {new_title}")
         else:
-            print("Failed to change the title of the Notepad window.")
+            print("Failed to change the title of the Paint window.")
     else:
-        print("Notepad window not found.")
+        print("Paint window not found.")
 
 if __name__ == "__main__":
     new_title = "Hello from Python!"
-    change_notepad_title(new_title)
+    change_paint_title(new_title)

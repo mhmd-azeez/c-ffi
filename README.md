@@ -1,8 +1,8 @@
 # C FFI
 This repository shows a couple of simple example of how you write bindings for C libraries in different languages.
 
-## SQLITE
-This shows how you can wrap Sqlite's C library and use it in your favorite programming language.
+## SQLite
+This shows how you can wrap SQLite's C library and use it in your favorite programming language.
 The [sqlite/sqlite](./sqlite/sqlite) folder is downloaded from: https://www.sqlite.org/download.html
 
 ## HWND (aka Window Handle)
